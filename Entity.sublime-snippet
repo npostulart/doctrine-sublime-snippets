@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[/**
+ * @Entity
+${3: * @Table(name="$4:$2}")
+} */
+class ${2:Entity}${5: extends ${6:SomeBaseEntity}}
+{
+	${8:/**
+	 * @Id
+	 * @Column(type="integer")
+	 * @GeneratedValue
+	 */
+	protected \$id = null;}
+}
+	$0
+}]]></content>
+	<tabTrigger>de</tabTrigger>
+	<scope>source.php</scope>
+	<description>Doctrine Entity</description>
+</snippet>

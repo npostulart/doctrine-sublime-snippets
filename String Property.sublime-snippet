@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[/**
+ * @Column(type="string"${3:, name="${4:$1}"}${5:, length=$6}${7:, unique=${8:false}}${9:, nullable=${10:false}})
+ */
+protected \$${1:property} = ${2:null};
+$0]]></content>
+	<tabTrigger>dp</tabTrigger>
+	<scope>source.php</scope>
+	<description>Doctrine String Property</description>
+</snippet>

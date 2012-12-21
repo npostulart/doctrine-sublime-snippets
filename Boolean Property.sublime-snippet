@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[/**
+ * @Column(type="boolean"${4:, name="${5:$1}"}${8:, nullable=${9:false}})
+ */
+protected \$${1:property} = ${2:true};
+$0]]></content>
+	<tabTrigger>dp</tabTrigger>
+	<scope>source.php</scope>
+	<description>Doctrine Boolean Property</description>
+</snippet>
