@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[/**
+ * @OneToOne(targetEntity="$2")
+ * @JoinColumn(name="${3:${1:property}}", referencedColumnName="${4:id}")
+ */
+protected \$${1:property};
+$0]]></content>
+	<tabTrigger>da</tabTrigger>
+	<scope>source.php</scope>
+	<description>Doctrine One To One (Self) Association</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[/**
+ * @OneToOne(targetEntity="$2",mappedBy="${3}")
+ */
+protected \$${1:property};
+$0]]></content>
+	<tabTrigger>da</tabTrigger>
+	<scope>source.php</scope>
+	<description>Doctrine One To One (Bi) map Association</description>
+</snippet>
