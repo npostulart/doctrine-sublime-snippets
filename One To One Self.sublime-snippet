@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[/**
- * @OneToOne(targetEntity="$2")
- * @JoinColumn(name="${3:${1:property}}", referencedColumnName="${4:id}")
+ * @ORM\OneToOne(targetEntity="$2")
+ * @ORM\JoinColumn(name="${3:${1:property}}", referencedColumnName="${4:id}")
  */
 protected \$${1:property};
 $0]]></content>

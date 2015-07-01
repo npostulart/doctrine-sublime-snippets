@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[/**
- * @Id
- * @Column(type="integer", name="$1")
- * @GeneratedValue
+ * @ORM\Id
+ * @ORM\Column(type="integer", name="$1")
+ * @ORM\GeneratedValue(strategy="IDENTITY")
  */
 protected ${2:\$id} = null;
 $0]]></content>

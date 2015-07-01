@@ -1,13 +1,14 @@
 <snippet>
 	<content><![CDATA[/**
- * @Entity
- * @Table(name="$2")
+ * @ORM\Entity
+ * @ORM\Table(name="$2")
  */
-class ${2:Entity}${5: extends ${6:SomeBaseEntity}} {
+class ${2:Entity} 
+{
 	${8:/**
-	 * @Id
-	 * @Column(type="integer")
-	 * @GeneratedValue
+	 * @ORM\Id
+	 * @ORM\Column(type="integer", name="$1")
+	 * @ORM\GeneratedValue(strategy="IDENTITY")
 	 */
 	protected \$id = null;}
 	$0

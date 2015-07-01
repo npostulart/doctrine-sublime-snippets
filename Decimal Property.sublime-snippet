@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[/**
- * @Column(type="decimal"${4:, name="${5:$1}"}${8:, nullable=${9:false}}${10:, scale=${11:0}}${12:, precision=${13:0}})
+ * @ORM\Column(type="decimal"${4:, name="${5:$1}"}${8:, nullable=${9:false}}${10:, scale=${11:0}}${12:, precision=${13:0}})
  */
 protected \$${1:property} = ${2:null};
 $0]]></content>
