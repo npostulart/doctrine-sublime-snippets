@@ -1,7 +1,10 @@
-Doctrine Sublime Snippets
+Doctrine ORM Sublime Snippets
 =========================
 
-Doctrine Snippet Package for Sublime Text 2
+Inspired from Doctrine Sublime Snippets
+
+Doctrine ORM Snippet Package for Sublime Text 3
+
 
 ##Useage
 
