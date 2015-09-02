@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[/**
- * @OneToMany(targetEntity="$2", mappedBy="$3")
+ * @ORM\OneToMany(targetEntity="$2", mappedBy="$3", cascade={"persist","remove"}, orphanRemoval=true)
  */
 protected \$${1:property};
 $0]]></content>

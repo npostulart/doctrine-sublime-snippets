@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[/**
- * @Column(type="array"${4:, name="${5:$1}"}${8:, nullable=${9:false}})
+ * @ORM\Column(type="array"${4:, name="${5:$1}"}${8:, nullable=${9:false}})
  */
 protected \$${1:property} = array();
 $0]]></content>
